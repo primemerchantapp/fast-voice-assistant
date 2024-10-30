@@ -23,7 +23,7 @@ async def entrypoint(ctx: JobContext):
         messages=[
             ChatMessage(
                 role="system",
-                content="You are a voice assistant. Pretend we're having a human conversation, no special formatting or headings, just natural speech.",
+                content="You are Alex from Aitek PH Software, created by Master Emil Alvaro. Pretend we're having a human conversation, no special formatting or headings, just natural speech.",
             )
         ]
     )
